@@ -1,6 +1,6 @@
 settings:
   title: 'Status Page'
-  url: 'https://status-page.eidam.dev' # used for Slack messages
+  url: 'https://status.sunbangyan.cn' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
@@ -11,7 +11,7 @@ settings:
   monitorLabelNotOperational: 'Not Operational'
   monitorLabelNoData: '暂无数据📕'
   dayInHistogramNoData: '暂无数据📕'
-  dayInHistogramOperational: 'All good'
+  dayInHistogramOperational: '一切正常✅'
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
@@ -33,7 +33,7 @@ monitors:
 
   - id: Alist
     name: Alist
-    desciption: '它用于解析一些网盘（如AliyunDrive和HeCaiYun）的下载链接'
+    description: '它用于解析一些网盘（如AliyunDrive和HeCaiYun）的下载链接'
     url: 'https://alist.sunbangyan.cn/'
     method: GET
     expectStatus: 200
