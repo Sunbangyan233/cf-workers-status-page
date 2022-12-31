@@ -5,12 +5,12 @@ settings:
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
-  allmonitorsOperational: 'All Systems Operational'
+  allmonitorsOperational: '一切正常🎉'
   notAllmonitorsOperational: 'Not All Systems Operational'
   monitorLabelOperational: 'Operational'
   monitorLabelNotOperational: 'Not Operational'
-  monitorLabelNoData: 'No data'
-  dayInHistogramNoData: 'No data'
+  monitorLabelNoData: '暂无数据📕'
+  dayInHistogramNoData: '暂无数据📕'
   dayInHistogramOperational: 'All good'
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
@@ -24,16 +24,17 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
 
-  - id: www-cloudflare-com
-    name: www.cloudflare.com
-    description: 'Built for anything connected to the Internet.'
-    url: 'https://www.cloudflare.com'
+  - id: 1drv-sunbangyan-cn
+    name: 1drv.sunbangyan.cn
+    description: '它用于处理OneDrive for Bussiness的反向代理下载加速请求，部署在Worker上。'
+    url: 'https://1drv.sunbangyan.cn/'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
-  - id: blog-cloudflare-com
-    name: Cloudflare Blog
-    url: 'https://blog.cloudflare.com/'
+  - id: Alist
+    name: Alist
+    url: 'https://alist.sunbangyan.cn/'
+    desciption: '它用于解析一些网盘（如AliyunDrive和HeCaiYun）的下载链接'
     method: GET
     expectStatus: 200
