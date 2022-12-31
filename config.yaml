@@ -15,10 +15,10 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: workers-cloudflare-com # unique identifier
-    name: workers.cloudflare.com
-    description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://workers.cloudflare.com/' # URL to fetch
+  - id: lhins-l6t5i7c4 # unique identifier
+    name: lhins-l6t5i7c4
+    description: '它是我们的服务器，可以处理解析链接等工作' # default=empty
+    url: 'http://dcbxpac3br6nzixilbmdopd.crmnuxivnnkuoepwulsymwkepntsb02qqppmq7hx.q5dz14qsnlynlcn4.sunbangyan.cn/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
