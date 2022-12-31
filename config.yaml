@@ -24,17 +24,16 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
 
-  - id: 1drv-sunbangyan-cn
-    name: 1drv.sunbangyan.cn
-    description: '它用于处理OneDrive for Bussiness的反向代理下载加速请求，部署在Worker上。'
-    url: 'https://1drv.sunbangyan.cn/'
+  - id: 1drv-personal-sunbangyan-cn
+    name: 1drv-personal.sunbangyan.cn
+    description: '它用于处理OneDrive个人账号的下载加速请求，部署在Vercel上。'
+    url: 'https://1drv-personal.sunbangyan.cn/'
     method: GET
     expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
 
   - id: Alist
     name: Alist
-    url: 'https://alist.sunbangyan.cn/'
     desciption: '它用于解析一些网盘（如AliyunDrive和HeCaiYun）的下载链接'
+    url: 'https://alist.sunbangyan.cn/'
     method: GET
     expectStatus: 200
