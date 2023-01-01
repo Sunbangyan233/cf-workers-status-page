@@ -25,7 +25,7 @@ monitors:
     linkable: false # allows the title to be a link, default=true
 
   - id: 1drv-personal-sunbangyan-cn
-    name: 1drv-personal.sunbangyan.cn
+    name: OneDrive-Personal
     description: '它用于处理OneDrive个人账号的下载加速请求，部署在Vercel上。'
     url: 'https://1drv-personal.sunbangyan.cn/'
     method: GET
