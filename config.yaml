@@ -37,3 +37,10 @@ monitors:
     url: 'https://alist.sunbangyan.cn/'
     method: GET
     expectStatus: 200
+
+  - id: Tunnel
+    name: Tunnel
+    description: '它的下载服务基于内网穿透，服务受限于物理设备的运行，所以它的在线时间通常很短'
+    url: 'https://tunnel.sunbangyan.cn/'
+    method: GET
+    expectStatus: 200
