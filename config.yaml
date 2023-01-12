@@ -2,11 +2,11 @@ settings:
   title: 'Status Page'
   url: 'https://status.sunbangyan.cn' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
-  daysInHistogram: 15 # number of days you want to display in histogram
+  daysInHistogram: 30 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
   allmonitorsOperational: '一切正常🎉'
-  notAllmonitorsOperational: 'Not All Systems Operational'
+  notAllmonitorsOperational: '部分节点不在线（'
   monitorLabelOperational: 'Operational'
   monitorLabelNotOperational: 'Not Operational'
   monitorLabelNoData: '暂无数据📕'
