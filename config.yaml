@@ -6,7 +6,7 @@ settings:
   collectResponseTimes: true # collects avg response times from CRON locations
 
   allmonitorsOperational: '一切正常🎉'
-  notAllmonitorsOperational: '部分节点不在线（'
+  notAllmonitorsOperational: '部分节点不在线'
   monitorLabelOperational: 'Operational'
   monitorLabelNotOperational: 'Not Operational'
   monitorLabelNoData: '暂无数据📕'
