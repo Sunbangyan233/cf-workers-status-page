@@ -2,7 +2,7 @@ settings:
   title: 'Status Page'
   url: 'https://status.sunbangyan.cn' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
-  daysInHistogram: 30 # number of days you want to display in histogram
+  daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
 
   allmonitorsOperational: '一切正常🎉'
@@ -18,7 +18,7 @@ monitors:
   - id: lhins-l6t5i7c4 # unique identifier
     name: lhins-l6t5i7c4
     description: '它是我们的服务器，可以处理解析链接等工作' # default=empty
-    url: 'http://dcbxpac3br6nzixilbmdopd.crmnuxivnnkuoepwulsymwkepntsb02qqppmq7hx.q5dz14qsnlynlcn4.sunbangyan.cn/' # URL to fetch
+    url: 'https://sunbangyan.cn/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
@@ -38,9 +38,3 @@ monitors:
     method: GET
     expectStatus: 200
 
-  - id: Tunnel
-    name: Tunnel
-    description: '它的下载服务基于内网穿透，服务受限于物理设备的运行，所以它的在线时间通常很短'
-    url: 'https://tunnel.sunbangyan.cn/'
-    method: GET
-    expectStatus: 200
